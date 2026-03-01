@@ -34,10 +34,10 @@ People with dietary restrictions or specific health goals suffer from **"decisio
 
 
 ### Definition of Done (DoD)
-* [ ] Code passes linting/formatting.
-* [ ] Feature branch is pushed and a Pull Request is opened.
-* [ ] At least one teammate reviews and approves the PR.
-* [ ] Feature is merged into `main` and verified.
+* [x] Code passes linting/formatting.
+* [x] Feature branch is pushed and a Pull Request is opened.
+* [x] At least one teammate reviews and approves the PR.
+* [x] Feature is merged into `main` and verified.
 
 ### Communication
 * **Slack:** Daily asynchronous updates in the `#team-nutritrack` channel.
