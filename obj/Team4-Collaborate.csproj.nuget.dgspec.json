@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/corneliuscornell/Library/Mobile Documents/com~apple~CloudDocs/Modern Software Development with Git and GitHub/Team4-Collaborate/Team4-Collaborate.csproj": {}
+    "C:\\Users\\robot\\Documents\\Team4repo\\Team4-Collaborate\\Team4-Collaborate.csproj": {}
   },
   "projects": {
-    "/Users/corneliuscornell/Library/Mobile Documents/com~apple~CloudDocs/Modern Software Development with Git and GitHub/Team4-Collaborate/Team4-Collaborate.csproj": {
+    "C:\\Users\\robot\\Documents\\Team4repo\\Team4-Collaborate\\Team4-Collaborate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/corneliuscornell/Library/Mobile Documents/com~apple~CloudDocs/Modern Software Development with Git and GitHub/Team4-Collaborate/Team4-Collaborate.csproj",
+        "projectUniqueName": "C:\\Users\\robot\\Documents\\Team4repo\\Team4-Collaborate\\Team4-Collaborate.csproj",
         "projectName": "Team4-Collaborate",
-        "projectPath": "/Users/corneliuscornell/Library/Mobile Documents/com~apple~CloudDocs/Modern Software Development with Git and GitHub/Team4-Collaborate/Team4-Collaborate.csproj",
-        "packagesPath": "/Users/corneliuscornell/.nuget/packages/",
-        "outputPath": "/Users/corneliuscornell/Library/Mobile Documents/com~apple~CloudDocs/Modern Software Development with Git and GitHub/Team4-Collaborate/obj/",
+        "projectPath": "C:\\Users\\robot\\Documents\\Team4repo\\Team4-Collaborate\\Team4-Collaborate.csproj",
+        "packagesPath": "C:\\Users\\robot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\robot\\Documents\\Team4repo\\Team4-Collaborate\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/corneliuscornell/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -47,7 +53,7 @@
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.3, )",
+              "version": "[10.0.4, )",
               "autoReferenced": true
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
@@ -61,19 +67,19 @@
             },
             "Microsoft.DotNet.HotReload.WebAssembly.Browser": {
               "target": "Package",
-              "version": "[10.0.103, )",
+              "version": "[10.0.200, )",
               "autoReferenced": true
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.3, )",
+              "version": "[10.0.4, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.3, )",
+              "version": "[10.0.4, )",
               "autoReferenced": true
             }
           },
@@ -91,7 +97,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[10.0.3, 10.0.3]"
+              "version": "[10.0.4, 10.0.4]"
             }
           ],
           "frameworkReferences": {
@@ -99,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -5,3 +5,23 @@
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+
+@code {
+    //List to store party items
+
+    List<string> pantryItems = new List<string>();
+
+    //Add items
+
+    void AddItem(string item)
+    {
+        pantryItems.Add(item);
+    }
+
+    //Remove items
+
+    void RemoveItem(string item)
+    {
+        pantryItems.Remove(item);
+    }
+}
