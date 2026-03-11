@@ -1,0 +1,59 @@
+@page "/pantry"
+
+<PageTitle>Pantry</PageTitle>
+
+<h3>My Pantry</h3>
+
+<div class="mb-3">
+    <input class="form-control"
+           @bind="newItem"
+           placeholder="Enter a pantry item" />
+</div>
+
+<div class="mb-3">
+    <button class="btn btn-primary" @onclick="HandleAddItem">Add Item</button>
+</div>
+
+@if (pantryItems.Count == 0)
+{
+    <p>No pantry items added yet.</p>
+}
+else
+{
+    <ul class="list-group">
+        @foreach (string item in pantryItems)
+        {
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>@item</span>
+                <button class="btn btn-sm btn-danger" @onclick="() => RemoveItem(item)">Remove</button>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private List<string> pantryItems = new List<string>();
+    private string newItem = string.Empty;
+
+    private void AddItem(string item)
+    {
+        if (!string.IsNullOrWhiteSpace(item))
+        {
+            pantryItems.Add(item.Trim());
+        }
+    }
+
+    private void RemoveItem(string item)
+    {
+        if (pantryItems.Contains(item))
+        {
+            pantryItems.Remove(item);
+        }
+    }
+
+    private void HandleAddItem()
+    {
+        AddItem(newItem);
+        newItem = string.Empty;
+    }
+}
