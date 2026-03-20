@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Team4-Collaborate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e4ef6a6d10ea87def0aba05536b66e7013a0906")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3631a7436c1e391a0efbda882c831d7f1da7e8b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Team4-Collaborate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Team4-Collaborate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
