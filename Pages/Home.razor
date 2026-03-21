@@ -7,3 +7,24 @@
 <p>Welcome to your new app.</p>
 
 <p><a href="/pantry">Go to Pantry Page</a></p>
+
+@code {
+    //List to store party items
+
+    List<string> pantryItems = new List<string>();
+
+    //Add items
+
+    void AddItem(string item)
+    {
+        pantryItems.Add(item);
+    }
+
+    //Remove items
+
+    void RemoveItem(string item)
+    {
+        pantryItems.Remove(item);
+    }
+}
+
