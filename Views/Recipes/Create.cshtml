@@ -1,0 +1,114 @@
+﻿@model NutriTrackAI.Models.ViewModels.RecipeFormViewModel
+
+@{
+    ViewData["Title"] = "Create Recipe";
+}
+
+<h2>Create Recipe</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="RecipeName" class="form-label"></label>
+        <input asp-for="RecipeName" class="form-control" />
+        <span asp-validation-for="RecipeName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Instructions" class="form-label"></label>
+        <textarea asp-for="Instructions" class="form-control" rows="5"></textarea>
+        <span asp-validation-for="Instructions" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="SourceURL" class="form-label"></label>
+        <input asp-for="SourceURL" class="form-control" />
+    </div>
+
+    <h4>Nutrition</h4>
+
+    <div class="mb-3">
+        <label asp-for="Calories" class="form-label"></label>
+        <input asp-for="Calories" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Protein" class="form-label"></label>
+        <input asp-for="Protein" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Carbs" class="form-label"></label>
+        <input asp-for="Carbs" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Fat" class="form-label"></label>
+        <input asp-for="Fat" class="form-control" />
+    </div>
+    <h4>Ingredients</h4>
+
+    <div id="ingredientRows">
+        <div class="ingredient-row mb-3">
+            <select name="Ingredients[0].IngredientID" class="form-control">
+                @foreach (var ingredient in ViewBag.Ingredients)
+                {
+                    <option value="@ingredient.Value">@ingredient.Text</option>
+                }
+            </select>
+
+            <input name="Ingredients[0].Quantity" class="form-control mt-2" placeholder="Quantity" />
+
+            <select name="Ingredients[0].UnitID" class="form-control mt-2">
+                @foreach (var unit in ViewBag.Units)
+                {
+                    <option value="@unit.Value">@unit.Text</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-secondary" onclick="addIngredientRow()">
+        Add Another Ingredient
+    </button>
+
+    <script>
+        let ingredientIndex = 1;
+
+        function addIngredientRow() {
+            const container = document.getElementById("ingredientRows");
+
+            const newRow = document.createElement("div");
+            newRow.classList.add("ingredient-row", "mb-3");
+
+            newRow.innerHTML = `
+                <select name="Ingredients[${ingredientIndex}].IngredientID" class="form-control">
+                    @foreach (var ingredient in ViewBag.Ingredients)
+                    {
+                        <option value="@ingredient.Value">@ingredient.Text</option>
+                    }
+                </select>
+
+                <input name="Ingredients[${ingredientIndex}].Quantity" class="form-control mt-2" placeholder="Quantity" />
+
+                <select name="Ingredients[${ingredientIndex}].UnitID" class="form-control mt-2">
+                    @foreach (var unit in ViewBag.Units)
+                    {
+                        <option value="@unit.Value">@unit.Text</option>
+                    }
+                </select>
+
+                <button type="button" class="btn btn-danger mt-2" onclick="this.parentElement.remove()">
+                    Remove
+                </button>
+            `;
+
+            container.appendChild(newRow);
+            ingredientIndex++;
+        }
+    </script>
+    <button type="submit" class="btn btn-primary">Save Recipe</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+
+   
+
+</form>

@@ -1,0 +1,49 @@
+﻿@model NutriTrackAI.Models.AIRecipeRequest
+
+@{
+    ViewData["Title"] = "AI Recipe Finder";
+}
+
+<h2>AI Recipe Finder</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+@if (ViewBag.RawResponse != null)
+{
+    <div class="alert alert-warning">
+        <strong>Raw AI Response:</strong>
+        <pre>@ViewBag.RawResponse</pre>
+    </div>
+}
+
+<form asp-action="Generate" method="post">
+    <div class="mb-3">
+        <label asp-for="DietaryPreferences" class="form-label"></label>
+        <input asp-for="DietaryPreferences" class="form-control" placeholder="Example: vegan, keto, high protein" />
+        <span asp-validation-for="DietaryPreferences" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Allergies" class="form-label"></label>
+        <input asp-for="Allergies" class="form-control" placeholder="Example: peanuts, dairy, gluten" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MealType" class="form-label"></label>
+        <input asp-for="MealType" class="form-control" placeholder="Example: dinner, lunch, breakfast" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NumberOfRecipes" class="form-label"></label>
+        <input asp-for="NumberOfRecipes" type="number" min="1" max="5" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Generate Recipes
+    </button>
+</form>
