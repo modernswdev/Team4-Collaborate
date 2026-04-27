@@ -1,4 +1,6 @@
-﻿namespace NutriTrackAI.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace NutriTrackAI.Models
 
 {
     public class UserDietaryRestriction

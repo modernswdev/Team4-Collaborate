@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NutriTrackAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6478e0c17f0a047c506874928f1a2bc08b88f31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3261d578e5aeeac7accd4400cd6f03f08e3e3712")]
 [assembly: System.Reflection.AssemblyProductAttribute("NutriTrackAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NutriTrackAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

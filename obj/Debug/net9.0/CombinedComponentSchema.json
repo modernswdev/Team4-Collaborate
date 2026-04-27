@@ -475,5 +475,5 @@
     }
   },
   "type": "object",
-  "SourceSegments": "C:\\Users\\skyla\\.nuget\\packages\\system.clientmodel\\1.10.0\\ConfigurationSchema.json;C:\\Users\\skyla\\.nuget\\packages\\openai\\2.10.0\\ConfigurationSchema.json"
+  "SourceSegments": "C:\\Users\\Skylar\\.nuget\\packages\\system.clientmodel\\1.10.0\\ConfigurationSchema.json;C:\\Users\\Skylar\\.nuget\\packages\\openai\\2.10.0\\ConfigurationSchema.json"
 }
