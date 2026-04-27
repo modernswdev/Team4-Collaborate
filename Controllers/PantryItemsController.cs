@@ -10,9 +10,10 @@ using NutriTrackAI.Models;
 
 namespace NutriTrackAI.Controllers
 {
+    //handles pantry items for logged in user
     public class PantryItemsController : Controller
     {
-
+        //gets logged in user ID from session
         private int? GetUserId()
         {
             return HttpContext.Session.GetInt32("UserID");
@@ -25,6 +26,7 @@ namespace NutriTrackAI.Controllers
             _context = context;
         }
 
+        //shows user's pantry items
         public async Task<IActionResult> Index()
         {
             var userId = GetUserId();
@@ -43,7 +45,7 @@ namespace NutriTrackAI.Controllers
             return View(pantryItems);
         }
 
-        // GET: PantryItems/Details/5
+       //shows details for a pantry item
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -65,6 +67,8 @@ namespace NutriTrackAI.Controllers
         }
 
         // GET: PantryItems/Create
+        //vs can make a controller for you but it was kind of basic
+        //Shows form for making a pantry item
         public IActionResult Create()
         {
             ViewData["IngredientID"] = new SelectList(_context.Ingredients, "IngredientID", "IngredientName");
@@ -73,9 +77,7 @@ namespace NutriTrackAI.Controllers
             return View();
         }
 
-        // POST: PantryItems/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //creates pantry item and assigns it to user account
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(PantryItem pantryItem)
@@ -102,6 +104,7 @@ namespace NutriTrackAI.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //Shows the edit form for one pantry item owned by the user
         public async Task<IActionResult> Edit(int id)
         {
             var userId = GetUserId();
@@ -125,6 +128,7 @@ namespace NutriTrackAI.Controllers
             return View(pantryItem);
         }
 
+        //Updates an existing pantry item
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, PantryItem pantryItem)
@@ -164,6 +168,8 @@ namespace NutriTrackAI.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        //Shows delete confirmation for a pantry item
         public async Task<IActionResult> Delete(int id)
         {
             var userId = GetUserId();
@@ -186,6 +192,7 @@ namespace NutriTrackAI.Controllers
             return View(pantryItem);
         }
 
+        //Deletes a pantry item owned by logged in user
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

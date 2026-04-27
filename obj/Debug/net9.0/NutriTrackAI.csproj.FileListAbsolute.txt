@@ -252,13 +252,11 @@ C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\NutriTrackAI.csproj.Co
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\NutriTrackAI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\NutriTrackAI.RazorAssemblyInfo.cache
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\NutriTrackAI.RazorAssemblyInfo.cs
+C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\NutriTrackAI.sourcelink.json
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\scopedcss\bundle\NutriTrackAI.styles.css
-C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\scopedcss\projectbundle\NutriTrackAI.bundle.scp.css
-C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\9n3tltuhw4-b9sayid5wm.gz
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\rzr94blt07-61n19gt1b8.gz
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\9o4n1r8ctk-xtxxf3hu2r.gz
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\4kgpdykhk0-bqjiyaj88i.gz
@@ -320,8 +318,6 @@ C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\i67flso2ic-
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\cle1en65i0-muycvpuwrr.gz
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\zhj94tqzkh-87fc7y1x7t.gz
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\xpmox9b3qt-mlv21k5csn.gz
-C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\8eugl58kvj-3yppru9nu3.gz
-C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\11v35rrp97-3yppru9nu3.gz
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\staticwebassets.development.json
@@ -333,3 +329,4 @@ C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\refint\NutriTrackAI.dl
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\NutriTrackAI.pdb
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\NutriTrackAI.genruntimeconfig.cache
 C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\ref\NutriTrackAI.dll
+C:\Users\skyla\source\repos\NutriTrackAI\obj\Debug\net9.0\compressed\9n3tltuhw4-84j5j5p9e8.gz

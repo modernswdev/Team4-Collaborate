@@ -4,6 +4,7 @@ using NutriTrackAI.Data;
 
 namespace NutriTrackAI.Controllers
 {
+    //displays shopping list
     public class ShoppingListsController : Controller
     {
         private readonly NutriTrackContext _context;
@@ -13,6 +14,7 @@ namespace NutriTrackAI.Controllers
             _context = context;
         }
 
+        //Shows a shopping list with ingredients and units
         public async Task<IActionResult> Details(int id)
         {
             var shoppingList = await _context.ShoppingLists

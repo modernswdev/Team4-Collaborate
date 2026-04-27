@@ -1,0 +1,1 @@
+﻿Models represent tables in the database converted in C classes. The view models are classes designed for the views, aka the website page.

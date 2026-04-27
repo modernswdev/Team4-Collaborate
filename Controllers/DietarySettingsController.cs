@@ -5,6 +5,7 @@ using NutriTrackAI.Models;
 
 namespace NutriTrackAI.Controllers
 {
+    //handles dietary restrictions for the user
     public class DietarySettingsController : Controller
     {
         private readonly NutriTrackContext _context;
@@ -14,6 +15,7 @@ namespace NutriTrackAI.Controllers
             _context = context;
         }
 
+        //Shows all dietary restrictions and marks the user's selected ones
         public async Task<IActionResult> Index()
         {
             int? userId = HttpContext.Session.GetInt32("UserID");
@@ -34,6 +36,7 @@ namespace NutriTrackAI.Controllers
             return View(allRestrictions);
         }
 
+        //Saves their restrictions based on the user
         [HttpPost]
         public async Task<IActionResult> Save(List<int> selectedRestrictions)
         {

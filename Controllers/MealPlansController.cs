@@ -7,14 +7,16 @@ using NutriTrackAI.Models;
 
 namespace NutriTrackAI.Models
 {
-
+    //handles meal planning, weekly shopping list gen, nutrition totals, and deleting meals from the plan
     public class MealPlansController : Controller
     {
+        //gets the user's ID from session
         private int? GetUserId()
         {
             return HttpContext.Session.GetInt32("UserID");
         }
 
+        //finds the meal plan and makes it if it doesn't yet exist
         private async Task<MealPlan> GetOrCreateMealPlan(int userId)
         {
             var mealPlan = await _context.MealPlans
@@ -43,6 +45,7 @@ namespace NutriTrackAI.Models
             _context = context;
         }
 
+        //shows all logged in user's meal plan
         public async Task<IActionResult> Index()
         {
             var userId = GetUserId();
@@ -63,6 +66,7 @@ namespace NutriTrackAI.Models
             return View(meals);
         }
 
+        //shows the form to add a recipe to the meal plan
         public IActionResult Create()
         {
             var userId = GetUserId();
@@ -83,6 +87,7 @@ namespace NutriTrackAI.Models
             return View();
         }
 
+        //adds recipe to the meal plan for a specified date and meal type
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(MealPlanRecipe model)
@@ -122,6 +127,7 @@ namespace NutriTrackAI.Models
             return RedirectToAction(nameof(Index));
         }
 
+        //makes shopping list by combining all ingredients from the meal plan and subtracts the pantry quanities and then creates the list
         public async Task<IActionResult> GenerateWeeklyShoppingList()
         {
             var userId = GetUserId();
@@ -189,6 +195,7 @@ namespace NutriTrackAI.Models
             return RedirectToAction("Details", "ShoppingLists", new { id = shoppingList.ShoppingListID });
         }
 
+        //calculates total calories, protein, carbs, and fat for the week
         public async Task<IActionResult> WeeklyNutrition()
         {
             var userId = GetUserId();
@@ -217,6 +224,7 @@ namespace NutriTrackAI.Models
             return View(totals);
         }
 
+        //shows deletion confirmation
         public async Task<IActionResult> Delete(int id)
         {
             var userId = GetUserId();
@@ -242,6 +250,7 @@ namespace NutriTrackAI.Models
             return View(meal);
         }
 
+        //deletes a meal from user's meal plan
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

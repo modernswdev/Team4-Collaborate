@@ -1,5 +1,5 @@
-wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\logo.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -61,7 +61,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\skyla\source\repos\NutriTrackAI\wwwroot\css\site.css
+wwwroot\css\site.css
 C:\Users\skyla\source\repos\NutriTrackAI\wwwroot\favicon.ico
 C:\Users\skyla\source\repos\NutriTrackAI\wwwroot\js\site.js
 C:\Users\skyla\source\repos\NutriTrackAI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -123,3 +123,4 @@ C:\Users\skyla\source\repos\NutriTrackAI\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\skyla\source\repos\NutriTrackAI\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\skyla\source\repos\NutriTrackAI\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\skyla\source\repos\NutriTrackAI\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\skyla\source\repos\NutriTrackAI\wwwroot\css\site.css

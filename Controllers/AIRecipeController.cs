@@ -5,6 +5,7 @@ using OpenAI.Chat;
 using NutriTrackAI.Data;
 using NutriTrackAI.Models;
 
+//Useless in this current model with no open.ai key.
 namespace NutriTrackAI.Controllers
 {
     public class AIRecipesController : Controller

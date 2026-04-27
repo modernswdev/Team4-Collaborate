@@ -7,6 +7,7 @@ using NutriTrackAI.Models.ViewModels;
 
 namespace NutriTrackAI.Controllers
 {
+    //handles crud operations for recipes
     public class RecipesController : Controller
     {
         private readonly NutriTrackContext _context;
@@ -16,15 +17,18 @@ namespace NutriTrackAI.Controllers
             _context = context;
         }
 
+        //displays all recipes
         public async Task<IActionResult> Index()
         {
             var userId = HttpContext.Session.GetInt32("UserID");
 
+            //if not logged, prompt users to log in
             if (userId == null)
             {
                 return RedirectToAction("Login", "Account");
             }
 
+            //shows recipes belonging to user
             var recipes = await _context.Recipes
                 .Where(r => r.UserID == userId.Value)
                 .Include(r => r.RecipeNutrition)
@@ -33,6 +37,7 @@ namespace NutriTrackAI.Controllers
             return View(recipes);
         }
 
+        //details page with all the recipe details
         public async Task<IActionResult> Details(int id)
         {
             var userId = HttpContext.Session.GetInt32("UserID");
@@ -58,6 +63,7 @@ namespace NutriTrackAI.Controllers
             return View(recipe);
         }
 
+        //creating the recipe, nutrition record, and ingredient rows
         public IActionResult Create()
         {
             ViewBag.Ingredients = new SelectList(_context.Ingredients, "IngredientID", "IngredientName");
@@ -120,6 +126,7 @@ namespace NutriTrackAI.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //shows edit form
         public async Task<IActionResult> Edit(int id)
         {
             var userId = HttpContext.Session.GetInt32("UserID");
@@ -164,6 +171,7 @@ namespace NutriTrackAI.Controllers
             return View(model);
         }
 
+        //updates recipe info, nutrition, and replaces old list
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, RecipeFormViewModel model)
@@ -234,6 +242,7 @@ namespace NutriTrackAI.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //shows delete confirmation for recipes
         public async Task<IActionResult> Delete(int id)
         {
             var userId = HttpContext.Session.GetInt32("UserID");
@@ -254,6 +263,7 @@ namespace NutriTrackAI.Controllers
             return View(recipe);
         }
 
+        //deletes recipes and dependant rows first because the database is 3nf and it won't let me delete them any other way
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -304,6 +314,7 @@ namespace NutriTrackAI.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //makes the shopping list by taking what the recipe calls for and subtracting what is in the pantry
         public async Task<IActionResult> GenerateShoppingList(int id)
         {
             int? userId = HttpContext.Session.GetInt32("UserID");
