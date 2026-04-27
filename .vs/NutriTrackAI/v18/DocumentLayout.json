@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\models\\userdietaryrestriction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:models\\userdietaryrestriction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\controllers\\dietarysettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\dietarysettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\controllers\\mealplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\mealplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\controllers\\shoppinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\shoppinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\controllers\\pantryitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\pantryitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\controllers\\airecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\airecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\views\\dietarysettings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:views\\dietarysettings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\models\\1modelsexplanation.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:models\\1modelsexplanation.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skylar\\documents\\github\\team4-collaborate\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDietaryRestriction.cs",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Models\\UserDietaryRestriction.cs",
+              "RelativeDocumentMoniker": "Models\\UserDietaryRestriction.cs",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Models\\UserDietaryRestriction.cs",
+              "RelativeToolTip": "Models\\UserDietaryRestriction.cs",
+              "ViewState": "AgIAAAEAAABgMzMzMzMbwAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:26:49.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DietarySettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\DietarySettingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DietarySettingsController.cs",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\DietarySettingsController.cs",
+              "RelativeToolTip": "Controllers\\DietarySettingsController.cs",
+              "ViewState": "AgIAABkAAACAnJmZmZn5vx8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:12:20.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwDwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:12:20.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-27T04:12:20.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShoppingListsController.cs",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\ShoppingListsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShoppingListsController.cs",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\ShoppingListsController.cs",
+              "RelativeToolTip": "Controllers\\ShoppingListsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:12:20.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MealPlansController.cs",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\MealPlansController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MealPlansController.cs",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\MealPlansController.cs",
+              "RelativeToolTip": "Controllers\\MealPlansController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAD0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:12:20.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipesController.cs",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\RecipesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\RecipesController.cs",
+              "RelativeToolTip": "Controllers\\RecipesController.cs",
+              "ViewState": "AgIAAAEBAAAANDMzMzMPwBgBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:12:20.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:12:20.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.txt",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\README.txt",
+              "RelativeDocumentMoniker": "README.txt",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\README.txt",
+              "RelativeToolTip": "README.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-27T04:12:20.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PantryItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\PantryItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PantryItemsController.cs",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\PantryItemsController.cs",
+              "RelativeToolTip": "Controllers\\PantryItemsController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAYwMIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:12:20.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AIRecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\AIRecipeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AIRecipeController.cs",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Controllers\\AIRecipeController.cs",
+              "RelativeToolTip": "Controllers\\AIRecipeController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:12:20.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "1ModelsExplanation.txt",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Models\\1ModelsExplanation.txt",
+              "RelativeDocumentMoniker": "Models\\1ModelsExplanation.txt",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Models\\1ModelsExplanation.txt",
+              "RelativeToolTip": "Models\\1ModelsExplanation.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-27T04:12:20.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:12:20.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T04:12:20.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T04:12:20.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T04:12:20.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T04:12:20.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Views\\DietarySettings\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DietarySettings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Skylar\\Documents\\GitHub\\Team4-Collaborate\\Views\\DietarySettings\\Index.cshtml",
+              "RelativeToolTip": "Views\\DietarySettings\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T04:12:20.932Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<NutriTrackAI.Models.MealPlanRecipe>
+
+<h2>Meal Plan</h2>
+
+<a asp-action="Create" class="btn btn-success">Add Meal</a>
+<a asp-action="GenerateWeeklyShoppingList" class="btn btn-primary"> Generate Shopping List </a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Meal Type</th>
+            <th>Recipe</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var meal in Model)
+        {
+            <tr>
+                <td>@meal.MealDate.ToShortDateString()</td>
+                <td>@meal.MealType?.MealTypeName</td>
+                <td>@meal.Recipe?.RecipeName</td>
+            </tr>
+             <td>
+                <a asp-action="Delete"
+                   asp-route-id="@meal.MealPlanRecipeID"
+                   class="btn btn-danger btn-sm"> Delete
+                </a>
+            </td>
+        }
+    </tbody>
+</table>
+
+<a asp-action="WeeklyNutrition" class="btn btn-warning"> View Nutrition </a>

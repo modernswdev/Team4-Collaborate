@@ -1,0 +1,41 @@
+﻿@model IEnumerable<NutriTrackAI.Models.Recipe>
+
+@{
+    ViewData["Title"] = "Recipes";
+}
+
+<h2>Recipes</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add New Recipe</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Recipe</th>
+            <th>Calories</th>
+            <th>Protein</th>
+            <th>Carbs</th>
+            <th>Fat</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var recipe in Model)
+        {
+            <tr>
+                <td>@recipe.RecipeName</td>
+                <td>@recipe.RecipeNutrition?.Calories</td>
+                <td>@recipe.RecipeNutrition?.Protein g</td>
+                <td>@recipe.RecipeNutrition?.Carbs g</td>
+                <td>@recipe.RecipeNutrition?.Fat g</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@recipe.RecipeID">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@recipe.RecipeID">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@recipe.RecipeID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

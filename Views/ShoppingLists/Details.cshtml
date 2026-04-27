@@ -1,0 +1,36 @@
+﻿@model NutriTrackAI.Models.ShoppingList
+
+@{
+    ViewData["Title"] = "Shopping List";
+}
+
+<h2>Shopping List</h2>
+
+@if (!Model.ShoppingListItems.Any())
+{
+    <p>You already have all ingredients for this recipe.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ingredient</th>
+                <th>Quantity</th>
+                <th>Unit</th>
+                <th>Checked Off</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ShoppingListItems)
+            {
+                <tr>
+                    <td>@item.Ingredient?.IngredientName</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Unit?.UnitName</td>
+                    <td>@item.IsCheckedOff</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

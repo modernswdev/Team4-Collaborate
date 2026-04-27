@@ -1,0 +1,22 @@
+﻿@model NutriTrackAI.Models.MealPlanRecipe
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label asp-for="RecipeID"></label>
+        <select asp-for="RecipeID" asp-items="ViewBag.Recipes" class="form-control"></select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MealTypeID"></label>
+        <select asp-for="MealTypeID" asp-items="ViewBag.MealTypes" class="form-control"></select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MealDate"></label>
+        <input asp-for="MealDate" type="date" class="form-control" />
+        <span asp-validation-for="MealDate" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>

@@ -1,0 +1,51 @@
+﻿@model NutriTrackAI.Models.Recipe
+
+@{
+    ViewData["Title"] = "Recipe Details";
+}
+
+<h2>@Model.RecipeName</h2>
+
+<p>
+    <strong>Source:</strong>
+    @if (!string.IsNullOrEmpty(Model.SourceURL))
+    {
+        <a href="@Model.SourceURL" target="_blank">View Source</a>
+    }
+    else
+    {
+        <span>No source provided</span>
+    }
+</p>
+
+<h4>Nutrition</h4>
+
+<ul>
+    <li>Calories: @Model.RecipeNutrition?.Calories</li>
+    <li>Protein: @Model.RecipeNutrition?.Protein g</li>
+    <li>Carbs: @Model.RecipeNutrition?.Carbs g</li>
+    <li>Fat: @Model.RecipeNutrition?.Fat g</li>
+</ul>
+
+<h4>Ingredients</h4>
+
+<ul>
+    @foreach (var item in Model.RecipeIngredients)
+    {
+        <li>
+            @item.Quantity @item.Unit?.UnitName - @item.Ingredient?.IngredientName
+        </li>
+    }
+</ul>
+
+<a asp-action="GenerateShoppingList"
+   asp-route-id="@Model.RecipeID"
+   class="btn btn-success">
+    Generate Shopping List
+</a>
+
+<h4>Instructions</h4>
+<p>@Model.Instructions</p>
+
+<a asp-action="Edit" asp-route-id="@Model.RecipeID" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Back</a>

@@ -1,0 +1,121 @@
+﻿@using Microsoft.AspNetCore.Http
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - NutriTrackAI</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/NutriTrackAI.styles.css" asp-append-version="true" />
+</head>
+<body>
+    @{ var currentController = ViewContext.RouteData.Values["controller"]?.ToString(); }
+    <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                NutriTrackAI
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+
+                <ul class="navbar-nav flex-grow-1">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light @(currentController == "Recipes" ? "active fw-bold" : "")"
+                           asp-controller="Recipes" asp-action="Index">
+                            Recipes
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light @(currentController == "MealPlans" ? "active fw-bold" : "")"
+                           asp-controller="MealPlans" asp-action="Index">
+                            Meal Plan
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light @(currentController == "PantryItems" ? "active fw-bold" : "")"
+                           asp-controller="PantryItems" asp-action="Index">
+                            Pantry
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light @(currentController == "DietarySettings" ? "active fw-bold" : "")"
+                           asp-controller="DietarySettings" asp-action="Index">
+                            Dietary Settings
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light @(currentController == "AIRecipes" ? "active fw-bold" : "")"
+                           asp-controller="AIRecipes" asp-action="Index">
+                            AI Recipes
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav">
+
+                    @if (Context.Session.GetInt32("UserID") != null)
+                    {
+                        <li class="nav-item">
+                            <span class="nav-link">
+                                Hello, @Context.Session.GetString("UserName")
+                            </span>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" asp-controller="Account" asp-action="Logout">
+                                Logout
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-controller="Account" asp-action="Login">
+                                Login
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-controller="Account" asp-action="Register">
+                                Register
+                            </a>
+                        </li>
+                    }
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2026 - NutriTrackAI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

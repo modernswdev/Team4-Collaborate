@@ -1,0 +1,31 @@
+﻿@model List<NutriTrackAI.Models.DietaryRestriction>
+
+@{
+    ViewData["Title"] = "Dietary Settings";
+    var selectedIds = ViewBag.SelectedIds as List<int> ?? new List<int>();
+}
+
+<h2>Dietary Settings</h2>
+
+<form asp-action="Save" method="post">
+    <div class="card p-3">
+        @foreach (var restriction in Model)
+        {
+            <div class="form-check">
+                <input class="form-check-input"
+                       type="checkbox"
+                       name="selectedRestrictions"
+                       value="@restriction.DietaryRestrictionID"
+                       @(selectedIds.Contains(restriction.DietaryRestrictionID) ? "checked" : "") />
+
+                <label class="form-check-label">
+                    @restriction.RestrictionName
+                </label>
+            </div>
+        }
+
+        <button type="submit" class="btn btn-primary mt-3">
+            Save Settings
+        </button>
+    </div>
+</form>

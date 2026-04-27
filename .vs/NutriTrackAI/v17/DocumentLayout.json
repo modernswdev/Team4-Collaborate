@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\controllers\\shoppinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\shoppinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\controllers\\dietarysettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\dietarysettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\controllers\\pantryitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\pantryitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\controllers\\mealplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\mealplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\controllers\\airecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\airecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\views\\dietarysettings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:views\\dietarysettings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\models\\1modelsexplanation.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:models\\1modelsexplanation.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|c:\\users\\skyla\\source\\repos\\nutritrackai\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC8EBE74-2680-4913-8DF0-9C0FA1E1F688}|NutriTrackAI.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-27T01:17:58.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.txt",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\README.txt",
+              "RelativeDocumentMoniker": "README.txt",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\README.txt",
+              "RelativeToolTip": "README.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-27T01:09:10.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T01:07:10.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppingListsController.cs",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\ShoppingListsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShoppingListsController.cs",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\ShoppingListsController.cs",
+              "RelativeToolTip": "Controllers\\ShoppingListsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T01:06:26.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DietarySettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\DietarySettingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DietarySettingsController.cs",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\DietarySettingsController.cs",
+              "RelativeToolTip": "Controllers\\DietarySettingsController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T01:04:43.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PantryItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\PantryItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PantryItemsController.cs",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\PantryItemsController.cs",
+              "RelativeToolTip": "Controllers\\PantryItemsController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAYwMIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T01:00:50.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MealPlansController.cs",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\MealPlansController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MealPlansController.cs",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\MealPlansController.cs",
+              "RelativeToolTip": "Controllers\\MealPlansController.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAYwPwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T00:53:51.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AIRecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\AIRecipeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AIRecipeController.cs",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\AIRecipeController.cs",
+              "RelativeToolTip": "Controllers\\AIRecipeController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T00:41:57.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RecipesController.cs",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\RecipesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\RecipesController.cs",
+              "RelativeToolTip": "Controllers\\RecipesController.cs",
+              "ViewState": "AgIAAE0BAAAAAAAAAAAkwDwBAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T00:38:51.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T00:23:54.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "1ModelsExplanation.txt",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Models\\1ModelsExplanation.txt",
+              "RelativeDocumentMoniker": "Models\\1ModelsExplanation.txt",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Models\\1ModelsExplanation.txt",
+              "RelativeToolTip": "Models\\1ModelsExplanation.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-27T00:14:30.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T23:48:05.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T23:47:15.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T23:39:12.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T00:03:47.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T23:34:19.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Views\\DietarySettings\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DietarySettings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\skyla\\source\\repos\\NutriTrackAI\\Views\\DietarySettings\\Index.cshtml",
+              "RelativeToolTip": "Views\\DietarySettings\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T23:34:12.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿@model NutriTrackAI.Models.MealPlanRecipe
+
+<h2>Delete Meal</h2>
+
+<p>Are you sure you want to remove this meal from your plan?</p>
+
+<div class="card p-3 mb-3">
+    <p><strong>Date:</strong> @Model.MealDate.ToShortDateString()</p>
+    <p><strong>Meal Type:</strong> @Model.MealType?.MealTypeName</p>
+    <p><strong>Recipe:</strong> @Model.Recipe?.RecipeName</p>
+</div>
+
+<form asp-action="Delete" asp-route-id="@Model.MealPlanRecipeID" method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
