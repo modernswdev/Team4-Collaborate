@@ -163,3 +163,27 @@ CREATE TABLE ShoppingListItems (
 
     UNIQUE (ShoppingListID, IngredientID, UnitID)
 );
+
+ALTER TABLE DietaryRestrictions
+CHANGE COLUMN RestrictionID DietaryRestrictionID INT NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE RecipeRestrictions
+CHANGE COLUMN RestrictionID DietaryRestrictionID INT NOT NULL;
+
+ALTER TABLE UserDietaryRestrictions
+CHANGE COLUMN RestrictionID DietaryRestrictionID INT NOT NULL;
+
+ALTER TABLE Recipes
+ADD COLUMN UserID INT NULL;
+
+INSERT INTO Ingredients (IngredientName) VALUES
+('Chicken Breast'),
+('Rice'),
+('Broccoli'),
+('Salt'),
+('Olive Oil'),
+('Garlic'),
+('Egg'),
+('Milk'),
+('Flour'),
+('Sugar');
