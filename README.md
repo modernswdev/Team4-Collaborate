@@ -34,10 +34,12 @@ Communication:
 
 Slack: Daily asynchronous updates in the #team-nutritrack channel.
 
-Meetings: (Sprint Planning) 
+Meetings: (Sprint Planning and Retrospectives) 
+1x per week
 
 Team Members:
 Cornell (gatekeeper501)
 Earl (EarlDeloch)
 Lynn (LynnB1)
 Halle (hbhutchinsish)
+Skylar (SkylarC426)
